@@ -26,4 +26,5 @@ kubectl get svc
 ```
 kubectl apply -f ingress.yml
 ```
-### You can access the spring music Service using localhost/music 
+### You can access the spring music Service using URL: http://localhost/music 
+
