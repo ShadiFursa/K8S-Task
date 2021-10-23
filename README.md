@@ -11,4 +11,18 @@ git clone https://github.com/ShadiFursa/K8S-Task.git
 ```
 
 ## Deployment: 
-
+```
+kubectl apply -f k8s-hw.yml
+```
+### Checking pods:
+```
+kubectl get pods
+```
+### checking service:
+```
+kubectl get svc
+```
+## Run ingress file:
+```
+kubectl apply -f ingress.yml
+```
